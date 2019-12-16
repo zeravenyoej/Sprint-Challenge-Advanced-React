@@ -26,7 +26,6 @@ class Fetch extends React.Component {
     render(){
         return(
             <div>
-                This is the Fetch Component
                 {this.state.data.map((item, index)=>{
                     return <Card
                     item={item}

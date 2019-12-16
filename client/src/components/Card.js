@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = (props) => {
     return(
-        <div>
+        <div className='cardDiv'>
             <p>Name: {props.item.name}</p>
             <p>Country: {props.item.country}</p>
         </div>
