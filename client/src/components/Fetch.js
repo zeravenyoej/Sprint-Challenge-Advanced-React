@@ -26,10 +26,11 @@ class Fetch extends React.Component {
     render(){
         return(
             <div>
+                <h3 dom-testid='h3'>By Name and Country:</h3>
                 {this.state.data.map((item, index)=>{
                     return <Card
                     item={item}
-                    key={this.index}
+                    key={index}
                     />
                 })}
             </div>
